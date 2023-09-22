@@ -52,7 +52,7 @@ export class Field<T> {
 }
 
 export const cms = {
-  field: ({ name, label }: { name: string; label: string }) => {
+  string: ({ name, label }: { name: string; label: string }) => {
     return new Field({ name, label });
   },
 };
